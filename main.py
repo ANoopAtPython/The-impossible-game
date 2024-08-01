@@ -263,3 +263,9 @@ while running:
 
     pygame.display.flip()
 pygame.quit()
+if player.health > 0:
+    print("You win")
+elif player.health == 0 and boss1.health == 0 and boss2.health == 0:
+    print("Draw")
+else:
+    print("you lose")
