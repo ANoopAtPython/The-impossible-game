@@ -108,13 +108,13 @@ class spreadshot(pygame.sprite.Sprite):
         if self.Up_Or_Down == 0:
             self.rect.move_ip(5 , 0)
         elif self.Up_Or_Down == 1:
-            self.angle = math.radians(25)
+            self.angle = math.radians(20)
             self.rect.move_ip(5, 5 * math.sin(self.angle))
         elif self.Up_Or_Down == 2:
             self.angle = math.radians(40)
             self.rect.move_ip(5 , 5 * math.sin(self.angle))
         elif self.Up_Or_Down == -1:
-            self.angle = math.radians(25)
+            self.angle = math.radians(20)
             self.rect.move_ip(5 ,  -5 * math.sin(self.angle))
         elif self.Up_Or_Down == -2:
             self.angle = math.radians(40)
