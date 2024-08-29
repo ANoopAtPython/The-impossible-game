@@ -168,14 +168,17 @@ pygame.time.set_timer(Add_Meteorite_Down , 600)
 
 clock = pygame.time.Clock()
 running = True
+sus = 0
 while running:
     clock.tick(60)
 
     for event in pygame.event.get():
         if event.type == pygame.KEYDOWN:
             if event.key == pygame.K_ESCAPE:
+                sus = 1
                 running = False
         elif event.type == pygame.QUIT:
+            sus = 1
             running = False
         elif event.type == Add_Bullet:
             i,j = player.rect[:2]
@@ -263,9 +266,12 @@ while running:
 
     pygame.display.flip()
 pygame.quit()
-if player.health > 0:
-    print("You win")
-elif player.health == 0 and boss1.health == 0 and boss2.health == 0:
-    print("Draw")
+if sus == 0:
+    if player.health > 0:
+        print("You win")
+    elif player.health == 0 and boss1.health == 0 and boss2.health == 0:
+        print("Draw")
+    else:
+        print("you lose")
 else:
-    print("you lose")
+    print("Cheater haha")
