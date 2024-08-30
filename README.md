@@ -11,5 +11,7 @@ There are 2 modes:
           Difficulty: 10 / 10 
 
           
-    .Hard: You only firee straight bullet doing 1 damage
+    Hard: You only fire straight bullet doing 1 damage
           Difficulty: 10e18 / 10 (harder than tidal wave)
+
+Good luck with this sussy game.
