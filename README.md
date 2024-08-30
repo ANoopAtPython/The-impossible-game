@@ -6,7 +6,10 @@ You won't probably win unless you have a very * 10 time
 
 
 There are 2 modes:
+
     Easy: You have the ability to do spreadshot and each bullet worth 2 damage
           Difficulty: 10 / 10 
+
+          
     .Hard: You only firee straight bullet doing 1 damage
           Difficulty: 10e18 / 10 (harder than tidal wave)
